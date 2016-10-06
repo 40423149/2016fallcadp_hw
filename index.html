@@ -1,151 +1,429 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>reveal.js – The HTML Presentation Framework</title>
+    <meta charset="utf-8">
+<title>
+2016 Fall 電腦輔助設計實習課程
+</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css">
+    <link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme">
+    
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css">
 
-<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-<meta name="author" content="Hakim El Hattab">
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
 
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-<link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css">
-<link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme">
-
-<!-- Theme used for syntax highlighting of code -->
-<link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css">
-
-<!-- Printing and PDF exports -->
-<script>
-    var link = document.createElement( 'link' );
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
-    document.getElementsByTagName( 'head' )[0].appendChild( link );
-</script>
-
-<!--[if lt IE 9]>
-<script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"></script>
-<![endif]-->
-	
+    <!--[if lt IE 9]>
+    <script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"></script>
+    <![endif]-->
 </head>
 
 <body>
 <div class="reveal">
 <!-- Any section element inside of this container is displayed as a slide -->
 <div class="slides">
-        <section>
-            <h1>40423149 學員的課程簡報</h1>
-            <h3>The HTML Presentation Framework</h3>
-            <p>
-                <small>
-                Created by <a href="http://hakim.se">Hakim El Hattab</a> /
-                <a href="http://twitter.com/hakimel">@hakimel</a>
-                </small>
-            </p>
-            <a href="blog/index.html">blog</a>
-        </section>
-        	
-        <section>
-            <h2>10/1成品影片</h2>
-            <p>
-           <iframe src="https://player.vimeo.com/video/185119125" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/185119125">40423149設計二甲蔡悌仁</a> from <a href="https://vimeo.com/user44208152">40423149</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-            </p>
-        </section>
+<section data-markdown>
+    <script type="text/template">
+# 2016Fall CADPA 課程
+
+### THE HTML PRESENTATION FRAMEWORK
+
+<small>
+Created by [Hakim El Hattab](http://hakim.se)
+[@hakimel](http://twitter.com/hakimel)
+</small>
+
+[blog](blog/index.html)
+    </script>
+</section>
 
 
-        					
-        <!-- Example of nested vertical slides -->
-        <section>
+						
+<section>
+    <h1>2016Fall CADPA 課程</h1>
+    <h3>The HTML Presentation Framework</h3>
+    <p>
+    <small>
+    Created by <a href="http://hakim.se">Hakim El Hattab</a> / 
+    <a href="http://twitter.com/hakimel">@hakimel</a>
+    </small>
+    </p>
+    
+    <a href="blog/index.html">blog</a>
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+# 機械設計主題教學
 
-            <section>
-                    <h2>Vertical Slides</h2>
-                    <p>Slides can be nested inside of each other.</p>
-                    <p>
-                    Use the <em>Space</em> key to navigate through all slides.
-                    </p>
-                    <br>
-                    <a href="#" class="navigate-down">
-                    <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-                    </a>
-            </section>
-            
-            <section>
-                        <h2>Basement Level 1</h2>
-                        <p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-            </section>
-            
-            <section>
-                        <h2>Basement Level 2</h2>
-                        <p>That's it, time to go back up.</p>
-                        <br>
-                        <a href="#/2">
-                        <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-                        </a>
-            </section>
-            
-        </section>
+### 1. 強化創造能力 
+(Creative Competencies, CC1-3)
+### 2. 熟習六種表達 
+(Six Presentation Methods, SP1-6)
+### 3. 融入協同設計 
+(Collaborative Designs, CD1-4)
 
-        						
-        <section>
-            <h2>Slides</h2>
-            <p>
-            Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-            </p>
-        </section>
+    </script>
+</section>
 
 
-        					
-        <section data-markdown>
-                <script type="text/template">
-                        ## Markdown support
-                
-                        Write content using inline or external Markdown.
-                        Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-                
-                        ```
-                        <section data-markdown>
-                          ## Markdown support
-                
-                          Write content using inline or external Markdown.
-                          Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-                        </section>
-                        ```
-                </script>
-        </section>
+						
+<section data-markdown>
+    <script type="text/template">
+# 強化創造能力
 
-        						
-        <script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"></script>
-        <script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"></script>
-        <script>
-                // More info https://github.com/hakimel/reveal.js#configuration
-                Reveal.initialize({
-                    controls: true,
-                    progress: true,
-                    history: true,
-                    center: true,
+創造力至少包含三種元素:
+### 1. 自學能力 (CC1, Self-learning)
+### 2. 程式能力 (CC2, Programming)
+### 3. 想像能力 (CC3, Imagination)
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+# 機械設計六種表達
+
+### 1. 口語表達 (SP1, Oral Presentation)
+### 2. 文字表達 (SP2, Text Presentation)
+### 3. 2D 表達 (SP3, 2D Presentation)
+### 4. 3D 表達 (SP4, 3D Presentation)
+### 5. 理論表達 (SP5, Analytical Presentation)
+### 6. 實體表達 (SP6, Physical Presentation)
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+# 融入協同設計
+
+如何融入協同產品設計?
+
+### 1. 了解電腦 (CD1, Computer)
+### 2. 了解網路 (CD2, Network)
+### 3. 了解協同設計適用之軟硬體工具 (CD3, Tools)
+### 4. 執行協同專案 (CD4, Project)
+
+
+    </script>
+</section>
+
+
+						
+</section>
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### Markdown 沒有 iframe
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 電腦輔助設計實習課程
+
+電腦輔助設計實習的教學主題:
+
+  * CC1-自學能力 (Git, Github, Python)
+  * CC2-程式能力 (Python 機構模擬運算)
+  * SP1-口語表達 (自拍投影片 on Vimeo and Youtube)
+  * P2-文字表達 (Wiki 與 Blog on Github Pages)
+  * SP3-2D 表達 (2D 零件工程圖)
+  * SP4-3D 表達 (自拍操作影片, Solvespace, OnShape)
+  * SP5-理論分析 (四連桿, NutCracker, 3D printer 機構分析)
+  * SP6-實體模型 (3D 列印, 機構組立)
+  * CD3-協同工具 (Git, Leo Editor 與 Github)
+  * CD4-協同專案 (OnShape 協同設計專案)
+
+    </script>
+</section>
+
+
+						
+<section>
+    <h2>github_intro</h2>
+    <iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <p>
+    <a href="https://vimeo.com/183950627">2016-09-23_cpb_github_intro</a> from 
+    <a href="https://vimeo.com/user24079973">虎尾科大機械設計工程</a> on 
+    <a href="https://vimeo.com">Vimeo</a>.
+    </p>
+</section>
+<section>
+    <h2>fork_pull_requests</h2>
+    <iframe src="https://player.vimeo.com/video/183954581" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <p>
+    <a href="https://vimeo.com/183954581">2016-09-23_fork_pull_requests</a> from 
+    <a href="https://vimeo.com/user24079973">虎尾科大機械設計工程</a> on 
+    <a href="https://vimeo.com">Vimeo</a>.
+    </p>
+</section>
+<!-- Example of nested vertical slides -->
+<section>
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### Markdown 沒有 iframe
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+<section>
+    <h2>Vertical Slides</h2>
+    <p>Slides can be nested inside of each other.</p>
+    <p>
+    Use the <em>Space</em> key to navigate through all slides.
+    </p>
+    <br>
+    <a href="#" class="navigate-down">
+        <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+    </a>
+</section>
+</section>
+<section data-markdown>
+    <script type="text/template">
+## Markdown support
+
+Write content using inline or external Markdown.
+Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+
+```
+<section data-markdown>
+  ## Markdown support
+
+  Write content using inline or external Markdown.
+  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+</section>
+```
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 利用 Markdown 寫投影片
+以下利用 Markdown 格式展示 Python 程式碼:
+```
+# use threading and subprocess to threading the make process
+import os
+import subprocess
+import threading
+
+def domake():
+    
+    path = "../exposed/api/exposed"
+    ubuntu = "../Ubuntu"
+    
+    # create obj path
+    
+    if not os.path.exists(path+"/../obj"):
+        os.makedirs(path+"/../obj")
+    
+    subprocess.call(["make", "clean"], cwd=path)
+    subprocess.call("make", cwd=path)
+    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
+    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
+    
+make = threading.Thread(target=domake)
+make.start()
+```
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+# h1 標題
+
+段落用空白行隔開
+
+第2段. *斜體*, **粗體**, 條列:
+
+  * 第1項
+  * 第2項
+  * 第3項
+
+上述條列, 星號前有3個空白
+
+> 引言則前面加上大於的符號
+> 其中也可以包含空白行
+>
+> 這是最後一行
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+# 影像檔案引用
+
+and images can be specified like so:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+# 數學符號與方程式
+
+Inline math equations go in like so: $\omega = d\phi / dt$. Display
+math should get its own line and be put in in double-dollarsigns:
+
+$$I = \int \rho R^{2} dV$$
+    </script>
+</section>
+
+
+
+						
+<section>
+    <h2>Pretty Code</h2>
+    <pre>
+        <code class="hljs" data-trim contenteditable>
+        function linkify( selector ) {
+          if( supports3DTransforms ) {
         
-                    transition: 'slide', // none/fade/slide/convex/concave/zoom
+            var nodes = document.querySelectorAll( selector );
         
-                    // More info https://github.com/hakimel/reveal.js#dependencies
-                    dependencies: [
-                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/zoom-js/zoom.js', async: true },
-                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/notes/notes.js', async: true }
-                    ]
-                });
-        </script>
+            for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+              var node = nodes[i];
+        
+              if( !node.className ) {
+                node.className += ' roll';
+              }
+            }
+          }
+        }
+        </code>
+    </pre>
+    <p>
+    Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.
+    </p>
+</section>
+			
+<section>	
+    <h2>Marvelous List</h2>
+    <ul>
+    <li>No order here</li>
+    <li>Or here</li>
+    <li>Or here</li>
+    <li>Or here</li>
+    </ul>
+</section>
+
+					
+<section>
+    <h2>Fantastic Ordered List</h2>
+    <ol>
+    <li>One is smaller than...</li>
+    <li>Two is smaller than...</li>
+    <li>Three!</li>
+    </ol>
+</section>
+
+
+					
+<section>
+    <h2>Export to PDF</h2>
+    <p>
+    Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:
+    </p>	
+    <iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+</section>				
+<section>
+<h2>Global State</h2>
+<p>
+Set <code>data-state="something"</code> on a slide and 
+<code>"something"</code>
+will be added as a class to the document element when the slide is open. This lets you
+apply broader style changes, like switching the page background.
+</p>
+</section>
+
+		
+<section data-state="customevent">	
+    <h2>State Events</h2>
+    <p>
+    Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
+    </p>
+    <pre>
+        <code class="javascript" data-trim contenteditable style="font-size: 18px;">
+        Reveal.addEventListener( 'customevent', function() {
+            console.log( '"customevent" has fired' );
+        } );
+        </code>
+    </pre>
+</section>					
 </div>
 
 </div>
 
+<script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"></script>
+<script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"></script>
+<script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/zoom-js/zoom.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/notes/notes.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/math/math.js', async: true }
+            ]
+        });
+</script>
 </body>
 </html>
 
