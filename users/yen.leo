@@ -108,6 +108,16 @@
 </v>
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
+<v t="leo.20161117160654.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20161117160654.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161117160654.4"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20161117160654.5"><vh>new:封面投影片內容</vh></v>
+</v>
+<v t="leo.20161117160654.6"><vh>Recovered node "利用 MD 寫內容" from @clean index.html</vh>
+<v t="leo.20161117160654.7"><vh>old:利用 MD 寫內容</vh></v>
+<v t="leo.20161117160654.8"><vh>new:利用 MD 寫內容</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -455,9 +465,9 @@ make.start()
 
 						
 </t>
-<t tx="amd.20161004095719.2"># 2016Fall CADPA 課程
+<t tx="amd.20161004095719.2"># 40423149 簡報
 
-### THE HTML PRESENTATION FRAMEWORK
+### 設計二甲 蔡悌仁
 
 &lt;small&gt;
 Created by [Hakim El Hattab](http://hakim.se)
@@ -492,11 +502,12 @@ and images can be specified like so:
 
 						
 </t>
-<t tx="amd.20161004101327.2">## 使用 iframe 導入影片
+<t tx="amd.20161004101327.2">## 10/1
 
-### Markdown 沒有 iframe
+### 作業影片
 
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="https://player.vimeo.com/video/185119125" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/185119125"&gt;40423149設計二甲蔡悌仁&lt;/a&gt; from &lt;a href="https://vimeo.com/user44208152"&gt;40423149&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 </t>
 <t tx="amd.20161004101902.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -741,5 +752,70 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20161117160654.2"></t>
+<t tx="leo.20161117160654.3">(uncached) amd.20161004095719.2
+Diff...
+- # 40423149 簡報
++ # 2016Fall CADPA 課程
+  
+- ### 設計二甲 蔡悌仁
++ ### THE HTML PRESENTATION FRAMEWORK
+  
+  &lt;small&gt;
+  Created by [Hakim El Hattab](http://hakim.se)
+  [@hakimel](http://twitter.com/hakimel)
+  &lt;/small&gt;
+  
+  [blog](blog/index.html)
+</t>
+<t tx="leo.20161117160654.4"># 2016Fall CADPA 課程
+
+### THE HTML PRESENTATION FRAMEWORK
+
+&lt;small&gt;
+Created by [Hakim El Hattab](http://hakim.se)
+[@hakimel](http://twitter.com/hakimel)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+</t>
+<t tx="leo.20161117160654.5"># 40423149 簡報
+
+### 設計二甲 蔡悌仁
+
+&lt;small&gt;
+Created by [Hakim El Hattab](http://hakim.se)
+[@hakimel](http://twitter.com/hakimel)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+</t>
+<t tx="leo.20161117160654.6">(uncached) amd.20161004101327.2
+Diff...
+- ## 10/1
++ ## 使用 iframe 導入影片
+  
+- ### 作業影片
++ ### Markdown 沒有 iframe
+  
+- &lt;iframe src="https://player.vimeo.com/video/185119125" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+?                                                ^^^^ ^                       ^^
++ &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+?                                               ++ ^^ ^                       ^^
+- &lt;p&gt;&lt;a href="https://vimeo.com/185119125"&gt;40423149設計二甲蔡悌仁&lt;/a&gt; from &lt;a href="https://vimeo.com/user44208152"&gt;40423149&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
+<t tx="leo.20161117160654.7">## 使用 iframe 導入影片
+
+### Markdown 沒有 iframe
+
+&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20161117160654.8">## 10/1
+
+### 作業影片
+
+&lt;iframe src="https://player.vimeo.com/video/185119125" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/185119125"&gt;40423149設計二甲蔡悌仁&lt;/a&gt; from &lt;a href="https://vimeo.com/user44208152"&gt;40423149&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
 </tnodes>
 </leo_file>
