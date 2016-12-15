@@ -1,1 +1,1 @@
-var tipuesearch = {"pages":[{"text":"2016Fall 修課成員網誌","title":"About","tags":"misc","url":"./pages/about/"},{"text":"","title":"40423149四連桿機構","tags":"Misc","url":"./40423149si-lian-gan-ji-gou.html"}]};
+var tipuesearch = {"pages":[{"tags":"misc","url":"./pages/about/","text":"2016Fall 修課成員網誌","title":"About"},{"tags":"hw","url":"./40423149zu-li.html","text":"","title":"40423149組立"},{"tags":"Misc","url":"./40423149si-lian-gan-ji-gou.html","text":"","title":"40423149四連桿機構"}]};

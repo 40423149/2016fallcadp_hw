@@ -5,35 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2016-11-17T16:16:32-00:00</lastmod>
+<lastmod>2016-12-15T15:22:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2016-11-17T16:16:32-00:00</lastmod>
+<lastmod>2016-12-15T15:22:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2016-11-17T16:16:32-00:00</lastmod>
+<lastmod>2016-12-15T15:22:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2016-11-17T16:16:32-00:00</lastmod>
+<lastmod>2016-12-15T15:22:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2016-11-17T16:05:28+08:00</lastmod>
+<lastmod>2016-12-15T15:15:15+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40423149zu-li.html</loc>
+<lastmod>2016-12-15T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -42,6 +49,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>./40423149si-lian-gan-ji-gou.html</loc>
 <lastmod>2016-09-02T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./category/hw.html</loc>
+<lastmod>2016-12-15T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -55,6 +69,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./tag/si-lian-gan-ji-gou.html</loc>
 <lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/zu-li.html</loc>
+<lastmod>2016-12-15T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./author/40423149.html</loc>
+<lastmod>2016-12-15T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
