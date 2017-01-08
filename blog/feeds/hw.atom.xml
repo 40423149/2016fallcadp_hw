@@ -1,4 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2016-12-15T12:00:00+08:00</updated><entry><title>40423149組立</title><link href="./40423149zu-li.html" rel="alternate"></link><published>2016-12-15T12:00:00+08:00</published><updated>2016-12-15T12:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2016-12-15:./40423149zu-li.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2016-12-15T12:00:00+08:00</updated><entry><title>40423149組立</title><link href="./40423149zu-li.html" rel="alternate"></link><updated>2016-12-15T12:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2016-12-15:./40423149zu-li.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
-&lt;iframe src="./../40423149-2.html" width="800" height="600"&gt;&lt;/iframe&gt;</summary><category term="組立"></category></entry></feed>
+&lt;iframe src="./../40423149-2.html" width="800" height="600"&gt;&lt;/iframe&gt;</summary><category term="組立"></category></entry><entry><title>40423105 11/24作業</title><link href="./40423105-1124zuo-ye.html" rel="alternate"></link><updated>2016-11-24T11:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2016-11-24:./40423105-1124zuo-ye.html</id><summary type="html">&lt;p&gt;40423105 11/24作業&lt;/p&gt;
+
+
+&lt;h2&gt;Solvespace&lt;/h2&gt;
+&lt;h3&gt;1. Parts (零件繪製)&lt;/h3&gt;
+&lt;p&gt;範例檔案: &lt;a href="http://solvespace.com/bracket.pl"&gt;http://solvespace.com/bracket.pl&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An introductory tutorial is available, in which we draw the same part that is shown in the demo video. &lt;/p&gt;
+&lt;p&gt;This covers most of the basic features of SolveSpace, including sketches, constraints, extrusions, and Boolean operations.&lt;/p&gt;
+&lt;p&gt;When we first run SolveSpace, we will begin with an empty part. Initially, our view of the part will be oriented onto the XY plane; the label for that plane is displayed at the bottom left of the screen (#XY, in dark grey). The axes are also indicated by the three colored arrows at the bottom left; the X, Y, and Z axes are drawn in red, green, and blue respectively.&lt;/p&gt;
+&lt;p&gt;When we hover the mouse over any entity, constraint, or other object in the sketch, that object will appear highlighted in yellow. For example, the XY plane, which is drawn as a dashed square, will appear highlighted when we hover the mouse over it. The YZ and ZX planes initially look like dashed lines, because they are being viewed on edge; but they still appear highlighted in yellow when we hold the mouse over them. It is similarly possible to highlight the X, Y, and Z axes (which are drawn as arrows), or the origin (which like all points is drawn as a green square).&lt;/p&gt;
+&lt;p&gt;翻譯 :&lt;/p&gt;
+&lt;p&gt;我們提供了一個介紹性教程，其中我們繪製演示視頻中顯示的相同部分。&lt;/p&gt;
+&lt;p&gt;這涵蓋了SolveSpace的大部分基本功能，包括草圖，約束，擠出和布爾運算。&lt;/p&gt;
+&lt;p&gt;當我們首次運行SolveSpace時，我們將從一個空的部分開始。最初，我們對零件的視圖將被定向到XY平面上;該平面的標籤顯示在屏幕的左下角（#XY，深灰色）。軸也由左下角的三個彩色箭頭指示; X，Y和Z軸分別繪製為紅色，綠色和藍色。&lt;/p&gt;
+&lt;p&gt;當我們將鼠標懸停在草圖中的任何實體，約束或其他對像上時，該對象將以黃色突出顯示。例如，當我們將鼠標懸停在其上時，繪製為虛線正方形的XY平面將突出顯示。 YZ和ZX平面最初看起來像虛線，因為它們被邊緣觀看;但是當我們把鼠標放在他們上面時，它們仍然顯示為黃色。同樣可以突出顯示X，Y和Z軸（以箭頭繪製）或原點（像所有點都繪製為綠色方塊）。&lt;/p&gt;
+&lt;h4&gt;Extrude (平行長出或除料)&lt;/h4&gt;
+&lt;p&gt;&lt;p&gt;STL 格式&lt;/p&gt;
+&lt;p&gt;範例:平行長出&lt;/p&gt;
+&lt;iframe src="./../data/threejs/4042310511241.html" width="800" height="600"&gt;&lt;/iframe&gt;
+&lt;p&gt;STL 格式&lt;/p&gt;
+&lt;p&gt;範例:除料&lt;/p&gt;
+&lt;iframe src="./../data/threejs/4042310511243.html" width="800" height="600"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h4&gt;Lathe (旋轉繞行長出或除料)&lt;/h4&gt;
+&lt;h4&gt;Export Triangle Mesh&lt;/h4&gt;
+&lt;p&gt;STL 格式&lt;/p&gt;
+&lt;p&gt;three.js&lt;/p&gt;
+&lt;iframe src="./../data/threejs/20161201.html" width="800" height="600"&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;2. Assembly (零件組立)&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/198537153" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/198537153"&gt;644401039&lt;/a&gt; from &lt;a href="https://vimeo.com/user44208152"&gt;40423149&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;3. Linkages (fourbar &amp;amp; multilink) (四連桿與多連桿運動模擬)&lt;/h3&gt;
+&lt;p&gt;&lt;img src="./../w7/404231051126.png" width="800"&gt;
+&lt;img src="./../w7/404231051126-1.png" width="800"&gt;
+&lt;img src="./../w7/404231051126-2.png" width="800"&gt;
+&lt;img src="./../w7/404231051126-3.png" width="800"&gt;&lt;/p&gt;
+&lt;h3&gt;4. Compiled &amp;amp; API (編譯與延伸應用)&lt;/h3&gt;
+&lt;p&gt;&lt;p&gt;使用 Virtualbox 虛擬主機執行 Windows 64 位元與 Ubuntu 64 位元環境中的編譯與延伸應用.&lt;/p&gt;
+&lt;img src="./../w7/40423105-4.png" width="800"&gt;&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>40423105 10/27作業</title><link href="./40423105-1027zuo-ye.html" rel="alternate"></link><updated>2016-10-27T11:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2016-10-27:./40423105-1027zuo-ye.html</id><summary type="html">&lt;p&gt;40423105 10/27作業&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="http://imgur.com/POn3cgs"&gt;&lt;img src="http://i.imgur.com/POn3cgs.png" title="source: imgur.com"&lt;/a&gt;
+&lt;p&gt; 心得:可以非常簡易的畫出四連桿運動的路線&lt;/p&gt;
+&lt;p&gt;Solvespace 四連桿圖檔:&lt;/p&gt;
+&lt;p&gt;&lt;a href="./../w7/40423105 w7.csv"&gt;40423105 w7.csv&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;
+&lt;p&gt;&lt;a href="./../w7/40423105 w7.slvs"&gt;40423105 w7.slvs&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>40423105 9/29作業</title><link href="./40423105-929zuo-ye.html" rel="alternate"></link><updated>2016-10-06T11:00:00+08:00</updated><author><name>40423149</name></author><id>tag:,2016-10-06:./40423105-929zuo-ye.html</id><summary type="html">&lt;p&gt;40423105 9/29作業&lt;/p&gt;
+
+
+&lt;iframe src="https://player.vimeo.com/video/185119125" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/185119125"&gt;40423149設計二甲蔡悌仁&lt;/a&gt; from &lt;a href="https://vimeo.com/user44208152"&gt;40423149&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;心得 : 這是我第一次用這個軟體 不過很快就抓到訣竅了.&lt;/p&gt;</summary><category term="作業"></category></entry></feed>
