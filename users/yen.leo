@@ -18,11 +18,11 @@
 <v t="leo.20151213173830.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
-<v t="amd.20151215180106.1"><vh>設定與開發</vh>
+<v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
 <v t="amd.20151216151325.1" a="E"><vh>@clean index.html</vh>
 <v t="amd.20161004083800.1" a="E"><vh>html</vh>
+<v t="amd.20161004083800.5"><vh>body</vh>
 <v t="amd.20161004083800.2"><vh>head</vh></v>
-<v t="amd.20161004083800.5" a="E"><vh>body</vh>
 <v t="amd.20161004083800.6" a="E"><vh>reveal div</vh>
 <v t="amd.20161004083800.7" a="E"><vh>slides div</vh>
 <v t="amd.20161004095719.1" a="E"><vh>封面投影片</vh>
@@ -107,6 +107,7 @@
 <v t="leo.20170108151205.1"><vh>@edit 20161220.md</vh></v>
 <v t="leo.20170108151217.1"><vh>@edit 20161227.md</vh></v>
 <v t="leo.20170108151224.1"><vh>@edit 20161231.md</vh></v>
+<v t="leo.20170112154407.1"><vh>@edit 20170112.md</vh></v>
 </v>
 </v>
 </v>
@@ -117,7 +118,7 @@
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
 <v t="leo.20161117160654.2" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20161117160654.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161117160654.3" a="E"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
 <v t="leo.20161117160654.4"><vh>old:封面投影片內容</vh></v>
 <v t="leo.20161117160654.5"><vh>new:封面投影片內容</vh></v>
 </v>
