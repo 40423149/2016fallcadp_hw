@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>40423125_齒輪嚙合傳動11-17齒 - 40423149蔡悌仁課程網誌 (虎尾科大MDE)</title>
+    <title>40423149_齒輪傳動13齒 - 40423149蔡悌仁課程網誌 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,18 +166,18 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./40423125_chi-lun-nie-he-chuan-dong-11-17chi.html">
+<link rel="canonical" href="./40423149_chi-lun-chuan-dong-13chi.html">
 
         <meta name="author" content="40423149" />
         <meta name="keywords" content="wx" />
-        <meta name="description" content="齒輪嚙合傳動13-17齒" />
+        <meta name="description" content="協同 2D 正齒輪傳動繪圖13齒" />
 
         <meta property="og:site_name" content="40423149蔡悌仁課程網誌 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="40423125_齒輪嚙合傳動11-17齒"/>
-        <meta property="og:url" content="./40423125_chi-lun-nie-he-chuan-dong-11-17chi.html"/>
-        <meta property="og:description" content="齒輪嚙合傳動13-17齒"/>
-        <meta property="article:published_time" content="2017-05-06" />
+        <meta property="og:title" content="40423149_齒輪傳動13齒"/>
+        <meta property="og:url" content="./40423149_chi-lun-chuan-dong-13chi.html"/>
+        <meta property="og:description" content="協同 2D 正齒輪傳動繪圖13齒"/>
+        <meta property="article:published_time" content="2017-04-20" />
             <meta property="article:section" content="Misc" />
             <meta property="article:tag" content="wx" />
             <meta property="article:author" content="40423149" />
@@ -296,10 +296,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./40423125_chi-lun-nie-he-chuan-dong-11-17chi.html"
+                    <a href="./40423149_chi-lun-chuan-dong-13chi.html"
                        rel="bookmark"
-                       title="Permalink to 40423125_齒輪嚙合傳動11-17齒">
-                        40423125_齒輪嚙合傳動11-17齒
+                       title="Permalink to 40423149_齒輪傳動13齒">
+                        40423149_齒輪傳動13齒
                     </a>
                 </h1>
             </header>
@@ -309,7 +309,7 @@ init_mathjax();
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-05-06T00:00:00+08:00"> Sat 06 May 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-04-20T00:00:00+08:00"> Thu 20 April 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423149.html"><i class="fa fa-user"></i> 40423149</a>
@@ -321,7 +321,7 @@ init_mathjax();
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p><b><font color="red">齒輪嚙合傳動13-17齒</font></b></p>
+                <p><b><font color="red">協同 2D 正齒輪傳動繪圖13齒</font></b></p>
 
 
 <p>利用漸開線原理, 以 Brython 繪製單一正齒輪廓:</p>
@@ -473,10 +473,11 @@ x = (canvas.width)/2
 y = (canvas.height)/2
 r = 0.8*(canvas.height/2)
 # 齒數
-n = 17
+n = 13
 # 壓力角
 pa = 20
 Spur(ctx).Gear(x, y, r, n, pa, "blue")
+
 </script>
 
 <!-- 以下處理 Cango Spur Gear -->
@@ -484,16 +485,19 @@ Spur(ctx).Gear(x, y, r, n, pa, "blue")
 <!-- Cango 程式庫 -->
 
 <script type="text/javascript" src="./../data/w11/cango
-/Cango-9v05-min.js"></script>
+_old/Cango-8v03.js"></script>
 
 <script type="text/javascript" src="./../data/w11/cango
-/CangoAxes-2v09.js"></script>
+_old/Cango2D-7v01-min.js"></script>
 
 <script type="text/javascript" src="./../data/w11/cango
-/CangoAnimation-5v00.js"></script>
+_old/CangoAxes-1v33.js"></script>
 
 <script type="text/javascript" src="./../data/w11/cango
-/gearUtils-05.js"></script>
+_old/CangoAnimation-4v01.js"></script>
+
+<script type="text/javascript" src="./../data/w11/cango
+_old/gearUtils-05.js"></script>
 
 <canvas id='cango_gear' width='800' height='750'></canvas>
 
@@ -507,7 +511,7 @@ import math
 # 主要用來取得畫布大小
 canvas = doc["cango_gear"]
 # 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
-ctx = canvas.getContext("2d")
+#ctx = canvas.getContext("2d")
 cango = window.Cango.new
 # 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
 shapedefs = window.shapeDefs
@@ -515,12 +519,8 @@ shapedefs = window.shapeDefs
 # in CangoAnimation.js
 #interpolate1 = window.interpolate
 # Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
-#cobj = window.Cobj.new
-shape = window.Shape.new
-path = window.Path.new
+cobj = window.Cobj.new
 creategeartooth = window.createGearTooth.new
-
-tweener = window.Tweener.new
 # 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="cango_gear" 的 canvas 上
 cgo = cango("cango_gear")
 
@@ -528,7 +528,7 @@ cgo = cango("cango_gear")
 # 畫正齒輪輪廓
 #####################################
 # n 為齒數
-n = 17
+n = 13
 # pa 為壓力角
 pa = 25
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
@@ -540,10 +540,10 @@ pr = n*m/2 # gear Pitch radius
 data = creategeartooth(m, n, pa)
 # Brython 程式中的 print 會將資料印在 Browser 的 console 區
 #print(data)
-gearTooth = shape(data, {
-  "fillColor":"#ddd0dd",
-  "border": True,
-  "strokeColor": "#606060" })
+gearTooth = cobj(data, "SHAPE", {
+        "fillColor":"#ddd0dd",
+        "border": True,
+        "strokeColor": "#606060" })
 gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh
 # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
 gear = gearTooth.dup()
@@ -562,48 +562,14 @@ for i in range(1, n):
 # 建立軸孔
 # add axle hole, hr 為 hole radius
 hr = 0.6*pr # diameter of gear shaft
-shaft = path(shapedefs.circle(hr))
+shaft = cobj(shapedefs.circle(hr), "PATH")
 shaft.revWinding()
 gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
-
-# setup the animation
-# backlash (mm)
-bklsh = 0.04*m
-# centre shift to make backlash
-dC = bklsh/(2*math.tan(math.pi*pa/180))
-# np 為小齒輪齒數
-np = 11
-# gear ratio
-gr = n/np              
-gearConfig = {'cx':-pr, 'cy':0, 'degs':[0, 360]}
-# gr*0.666 rpm
-#pinionConfig = {'cx':pr+dC, 'cy':0, 'degs':[0, -gr*360]}
-# 0.666 rpm
-twnr = tweener(0, 90000, "loop")
-
 cx = canvas.width/2
 cy = canvas.height/2
-#gear.translate(cx, cy)
+gear.translate(cx, cy)
 # render 繪出靜態正齒輪輪廓
-#cgo.render(gear)
-# 利用 gear 資料複製一份, 命名為 gear1
-gear1 = gear.dup()
-
-from time import time
-from browser.timer import request_animation_frame as raf
-from browser.timer import set_interval
-
-deg = math.pi/180
-
-def draw():
-    cgo.clearCanvas()
-    gear.rotate(2*deg)
-    # 在特定位置, 以特定 scale, 特定 degs 執行 render
-    cgo.render(gear, {'x':cx-pr/2, 'y':cy, 'scl':0.5, 'degs':0})
-    gear1.rotate(-2*deg)
-    cgo.render(gear1, {'x':cx+pr*2*0.5-pr/2, 'y':cy, 'scl':0.5, 'degs':0})
-
-set_interval(draw, 2)
+cgo.render(gear)
 </script>
             </div>
             <!-- /.entry-content -->
@@ -620,23 +586,23 @@ set_interval(draw, 2)
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="./40423125_chi-lun-nie-he-chuan-dong-11-17chi.html">
-                            40423125_齒輪嚙合傳動11-17齒
+                        <a href="./40423149_chi-lun-nie-he-chuan-dong-11-17chi.html">
+                            40423149_齒輪嚙合傳動11-17齒
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./40423125_chi-lun-nie-he-chuan-dong-13-17chi.html">
-                            40423125_齒輪嚙合傳動13-17齒
+                        <a href="./40423149_chi-lun-nie-he-chuan-dong-13-17chi.html">
+                            40423149_齒輪嚙合傳動13-17齒
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./40423125_chi-lun-chuan-dong-17chi.html">
-                            40423125_齒輪傳動17齒
+                        <a href="./40423149_chi-lun-chuan-dong-17chi.html">
+                            40423149_齒輪傳動17齒
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./40423125_chi-lun-chuan-dong-13chi.html">
-                            40423125_齒輪傳動13齒
+                        <a href="./40423149_chi-lun-chuan-dong-13chi.html">
+                            40423149_齒輪傳動13齒
                         </a>
                     </li>
                     <li class="list-group-item">
